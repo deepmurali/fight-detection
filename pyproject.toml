@@ -1,0 +1,16 @@
+[project]
+name = "fight-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+python = "^3.10"
+dependencies = ["ultralytics (>=8.3.169,<9.0.0)"]
+
+[tool.poetry]
+name = "fight-detection"
+version = "0.1.0"
+description = ""
+authors = ["deepakmurali"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
