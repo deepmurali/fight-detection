@@ -3,8 +3,8 @@ name = "fight-detection"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-python = "^3.10"
-dependencies = ["ultralytics (>=8.3.169,<9.0.0)"]
+python = ">=3.10,<=3.13"
+dependencies = ["ultralytics (>=8.3.169,<9.0.0)", "boxmot @ git+https://github.com/mikel-brostrom/BoxMOT.git", "numpy (>=1.26,<2.0)"]
 
 [tool.poetry]
 name = "fight-detection"
@@ -13,4 +13,8 @@ description = ""
 authors = ["deepakmurali"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<=3.13"
+
+[tool.poetry.group.dev.dependencies]
+yt-dlp = "^2025.7.21"
+
